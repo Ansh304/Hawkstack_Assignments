@@ -47,16 +47,19 @@ Frontend configured to call `http://localhost:8080/api/*`
 ## 📱 Pages & Features
 
 ### 1. Courses Catalog (`/courses`)
+##(Assignment 3)
 - **Filters:** Category, Level, Search (debounced 1.5s)
 - **Server-side:** Pagination, Sorting (`lazy` DataTable)
 - **Actions:** "View Progress" → navigates to `/progress/:courseId`
 
 ### 2. Course Progress (`/progress/:courseId`)
+##(Assignment 1)
 - **Progress Bar:** Visual completion percentage
 - **Lesson List:** Real lessons from backend with checkboxes
 - **APIs:**
 
 ### 3. Training Bookings (`/booking`)
+##(Assignment 2)
 - **Trainings List:** Upcoming sessions with seat availability
 - **Book Button:** Disabled when full, shows loading during booking
 - **My Bookings Link:** → `/my-bookings`
